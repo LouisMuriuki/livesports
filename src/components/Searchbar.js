@@ -1,10 +1,13 @@
-import React from 'react'
+import React, { useState } from 'react'
 
-function Seachbar(props) {
+function Seachbar({placeholder,searchText,setSearchText}) {
+ 
+ 
+
   return (
     <>
     <div className='searchInputs'>
-        <input type="text" placeholder={props.placeholder}/>
+        <input type="text" placeholder={placeholder} value={searchText} onChange={(e)=>setSearchText(e.target.value)}/>
     </div>
     
     </>

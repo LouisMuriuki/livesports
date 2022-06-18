@@ -31,7 +31,7 @@ export default function Navbar() {
                         <li>
                         <Link to='/'>
                             <div  className='nav-links'>
-                                History
+                                News
                             </div>
                             </Link>
                         </li>

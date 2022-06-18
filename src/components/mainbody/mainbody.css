@@ -1,0 +1,24 @@
+.mainbody{
+    width: 100%;
+    
+}
+.top{
+    display: flex;
+    align-items: center;
+
+}
+img{
+    width: 25px;
+    height: 25px; 
+}
+.middle{
+    display: flex;
+}
+.teams{
+    display: flex;
+    flex-direction: column;
+}
+.team{
+    display: flex;
+    align-items: center;
+}

@@ -1,12 +1,17 @@
 import React from 'react'
-import Leages from './league/Leages'
-import Main from './Main'
+import MainBody from './mainbody/MainBody'
+import Sidebar from './sidebar/Sidebar'
+
 
 export default function Body() {
     return (
-        <div>
-            <Leages />
-            <Main />
+        <div  style={{display:'flex',flexDirection:'row'}}>
+            <div style={{display:'flex',flex:1}} >
+                <Sidebar />
+            </div>
+            <div style={{display:'flex',flex:1}}>
+                <MainBody />
+            </div>
         </div>
 
     )

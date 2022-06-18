@@ -1,0 +1,17 @@
+.leagueContainer{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.dataItem{
+    display: flex;
+    align-items: center;
+}
+.dataItem img{
+    
+    width: 25px;
+    height: 25px;
+}
+.dataItem p{
+    margin-left: 10px;
+}
