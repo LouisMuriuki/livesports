@@ -1,0 +1,45 @@
+nav {
+    display: flex;
+    align-items: center;
+    height: auto;
+    margin-top: 20px;
+
+    .navheader {
+        margin-left: 20px;
+
+    }
+
+    .nav-item {
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+        
+
+        ul {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            width: 100%;
+            li {
+                flex: 0 1 auto;
+                list-style: none;
+
+                .nav-links {
+                    font-size: 1.1em;
+                    color: #fff;
+                    text-decoration: none;
+
+                    &:active,
+                    :hover {
+                        color: chocolate;
+                    }
+
+                    &:focus {
+                        color: chocolate;
+                    }
+                }
+            }
+
+        }
+    }
+}
