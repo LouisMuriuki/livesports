@@ -11,14 +11,34 @@ img{
     width: 25px;
     height: 25px; 
 }
+.topmiddle{
+    margin-top: -20px;
+}
 .middle{
     display: flex;
+    border-radius: 10px;
+    background-color: rgb(18, 18, 18);
+    padding: 5px;
+    width: 100%;
 }
 .teams{
+    margin-left: 20px;
     display: flex;
     flex-direction: column;
+    width: 100%;
+    line-height: 1px;
+  
 }
 .team{
     display: flex;
     align-items: center;
+    position: relative;
+}
+
+.score{
+  display: flex;
+ right: 0;
+ position: absolute;
+ margin-right: 5%;
+  
 }
